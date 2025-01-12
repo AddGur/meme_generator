@@ -1,12 +1,13 @@
 import logo from '../assets/logo.png';
+import { NavLink } from 'react-router-dom';
 
-export function NavBar({ onNavigate }) {
+export function NavBar() {
   return (
     <nav className="navbar">
-      <button onClick={() => onNavigate('regular')} className="navbar-logo">
+      <NavLink to="/" className="navbar-logo">
         <img src={logo} alt="memLogo" className="navbar-logo-image" />
         <span className="navbar-title">Meme Generator</span>
-      </button>
+      </NavLink>
     </nav>
   );
 }

@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export function MemeForm({ onSubmit, memesLength }) {
+  const navigate = useNavigate();
+
   const [title, setTitle] = useState('');
   const [imageUrl, setImageUrl] = useState('');
   const [file, setFile] = useState(null);
@@ -31,6 +34,7 @@ export function MemeForm({ onSubmit, memesLength }) {
     setImageUrl('');
     setFile(null);
     setPreviewUrl('');
+    navigate('/'); // Navigate to the home route
   };
 
   const handleFileChange = (e) => {
