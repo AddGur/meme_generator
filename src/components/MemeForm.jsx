@@ -18,10 +18,13 @@ export function MemeForm({ onSubmit, memesLength }) {
     }
   }, [file]);
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
     if (!imageUrl && !file) {
       return false;
     }
+    console.log('data');
     const formData = {
       id: memesLength + 1,
       title,
@@ -34,7 +37,7 @@ export function MemeForm({ onSubmit, memesLength }) {
     setImageUrl('');
     setFile(null);
     setPreviewUrl('');
-    navigate('/'); // Navigate to the home route
+    navigate('/', { replace: true });
   };
 
   const handleFileChange = (e) => {

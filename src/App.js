@@ -10,7 +10,7 @@ import { HotPage } from './pages/Hot.jsx';
 import { FormPage } from './pages/Form.jsx';
 import { RegularPage } from './pages/Regular.jsx';
 
-import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   const [memes, setMemes] = useState(memeData);
