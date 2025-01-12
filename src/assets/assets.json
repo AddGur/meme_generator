@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy6mhb9jbskc4lx6crkzh.jpg",
+    "title": "Lorem1",
+    "upvotes": 5,
+    "downvotes": 3
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F02ie1ne5zrqup9zzpcmj.jpg",
+    "title": "Lorem2 Lorem2 Lorem2 Lorem2 Lorem2 Lorem2",
+
+    "upvotes": 15,
+    "downvotes": 18
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnb0mhzc24wqbkrp9lt5x.jpg",
+    "title": "Lorem3",
+
+    "upvotes": 15,
+    "downvotes": 8
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa3va803nhv65mjvwi5o3.jpg",
+    "title": "Lorem4",
+
+    "upvotes": 4,
+    "downvotes": 8
+  }
+]

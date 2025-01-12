@@ -1,0 +1,81 @@
+.memes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.meme-card {
+  width: 50%;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.meme-title-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.meme-title {
+  margin: 0;
+  font-size: 1.5rem;
+  flex-grow: 1;
+}
+
+.meme-image-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+}
+
+.meme-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.meme-actions {
+  display: flex;
+  gap: 0;
+}
+
+.no-memes {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.vote-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.vote-button.upvote:hover {
+  color: #28a745;
+}
+
+.vote-button.downvote:hover {
+  color: #dc3545;
+}
+
+.vote-count {
+  margin-left: 5px;
+}
