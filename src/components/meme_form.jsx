@@ -106,7 +106,7 @@ export function MemeForm({ onSubmit, memesLength }) {
       {urlError && <p className="url-error">{urlError}</p>}
       {previewUrl && (
         <div className="preview-container">
-          <img src={previewUrl} alt="Preview" className="preview-image" />
+          <img src={previewUrl} alt="podgląd" className="preview-image" />
         </div>
       )}
       <button type="submit" className="submit-button">
